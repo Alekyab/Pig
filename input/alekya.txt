@@ -1,0 +1,6 @@
+alekya	2	3
+reddy	2	1
+bachala	3	4
+alekya	3	3
+reddy	2	5
+bachala	4	3

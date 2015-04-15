@@ -1,0 +1,3 @@
+register /home/hdoop/user/pig-0.11.0-cdh4.7.1/contrib/piggybank/java/piggybank.jar;
+data = LOAD '/home/hdoop/user/pig-0.11.0-cdh4.7.1/input/log' USING org.apache.pig.piggybank.storage.apachelog.CommonLogLoader() AS (addr: chararray, logname: chararray, user: chararray, time: chararray, method: chararray, uri: chararray, proto: chararray, status: int, bytes: int);
+dump data;
